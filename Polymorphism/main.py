@@ -7,18 +7,20 @@ class Rectangle:
     def get_area(self):
         return self.a * self.b
 
+
 class Square:
 
     def __init__(self, a):
         self.a = a
 
-    def get_area(self, a):
-        return self.a**2
+    def get_area(self):
+        return self.a ** 2
+
 
 class Circle:
 
     def __init__(self, r):
         self.r = r
 
-    def get_area(self, r):
-        return 3,14 * self.r**2
+    def get_area(self):
+        return 3.14 * self.r ** 2
